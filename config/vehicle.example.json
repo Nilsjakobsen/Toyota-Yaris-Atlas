@@ -1,0 +1,6 @@
+{
+  "_comment": "Copy this file to vehicle.local.json and fill in your own values. vehicle.local.json is gitignored and is only served by the local dev server; it is never bundled into a build.",
+  "registration": "XX00000",
+  "vin": "XXXXXXXXXXXXXXXXX",
+  "nickname": "My Yaris"
+}

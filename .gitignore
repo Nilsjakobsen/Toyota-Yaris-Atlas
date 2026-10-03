@@ -1,0 +1,28 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# PRIVATE: your registration number and VIN live here. Never commit it.
+# A redacted template is committed as config/vehicle.example.json.
+config/vehicle.local.json
+config/*.local.json
+
+# Local test output (screenshots, downloaded exports)
+shots/
+test-output/
+
+# Exported/derived GLBs you have not decided to publish.
+# Commit a GLB only after recording it in docs/ASSET-LICENCES.md.
+public/models/*.glb
+!public/models/.gitkeep
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.blend1
+
+# Python bytecode (from running the Blender helper)
+__pycache__/
+*.pyc

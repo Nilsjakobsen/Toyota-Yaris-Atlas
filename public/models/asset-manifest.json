@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "units": "metres",
+  "assets": [
+    {
+      "id": "yaris-atlas-main",
+      "file": "models/yaris-atlas.glb",
+      "optional": true,
+      "title": "Your Blender export",
+      "creator": "Owner",
+      "source": "Exported from Blender following docs/BLENDER-GLB-WORKFLOW.md",
+      "licence": "Your own work",
+      "geometryStatus": "approximate",
+      "notes": "Absent by default. Any object whose name (or atlas_id custom property) matches a component ID replaces that placeholder. Before adding third-party geometry, record it in docs/ASSET-LICENCES.md and here."
+    }
+  ]
+}
